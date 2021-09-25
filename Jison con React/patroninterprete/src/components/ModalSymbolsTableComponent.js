@@ -16,7 +16,7 @@ function ModalSymbolsTable({ symbolsTable }) {
         <div className="realtive">
             <OverlayTrigger placement='left' overlay={<Tooltip id="tooltip-disabled">Symbols Table</Tooltip>}>
                 <span className="d-inline-block">
-                    <span class="badge rounded-pill bg-dark notify">{symbolsTable.length}</span>
+                    <span className="badge rounded-pill bg-dark notify">{symbolsTable.length}</span>
                     <button className="btn btn-outline-warning btn-lg rounded-pill shadow" onClick={showModal}>
                         <span className="fa fa-table"></span>
                     </button>

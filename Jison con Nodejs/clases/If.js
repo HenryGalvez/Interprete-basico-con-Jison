@@ -1,9 +1,10 @@
+//import Expression from './Expression';
 
 class If {
-    constructor(e, c, _type, _row, _column) {
+    constructor(e, c, _dataType, _row, _column) {
         this.exp = e;
         this.body = c;
-        this.type = _type;
+        this.dataType = _dataType;
         this.row = _row;
         this.column = _column;
     }

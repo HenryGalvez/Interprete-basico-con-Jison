@@ -58,7 +58,6 @@ class Main extends Component {
                             rows={rows}
                             style={{ resize: 'none' }}
                             ref={(element) => this.inputText = element} >
-                        integer a = 4;
                         </textarea>
                     </div>
                     <div className="col col-md-6">

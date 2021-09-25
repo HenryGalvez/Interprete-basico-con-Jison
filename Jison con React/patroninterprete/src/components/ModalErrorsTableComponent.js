@@ -16,7 +16,7 @@ function ModalErrorsTable({ errorsTable }) {
         <div className="">
             <OverlayTrigger placement='left' overlay={<Tooltip id="tooltip-disabled">Errors Table</Tooltip>}>
                 <span className="d-inline-block">
-                    <span class="badge rounded-pill bg-dark notify">{errorsTable.length}</span>
+                    <span className="badge rounded-pill bg-dark notify">{errorsTable.length}</span>
                     <button className="btn btn-outline-danger btn-lg rounded-pill shadow" onClick={showModal}>
                         <span className="fa fa-exclamation-circle"></span>
                     </button>
