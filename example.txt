@@ -1,0 +1,64 @@
+integer a = 4;
+double b = 2.3;
+char c = 'c';
+string d = "hola\nmundo";
+
+concatenacion(d, "prueba de funcion");
+
+void concatenacion(string cad1, string cad2) {
+    string a = cad1 + cad2;
+    print(a);
+}
+
+void sumar(integer num1, double num2){
+    double n = num1 + num2;
+    print(n);
+}
+
+sumar(a, b);
+
+relacional(4,4);
+relacional(40,4);
+relacional(4,50);
+
+void relacional(integer num1, integer num2){
+    if(num1 < num2){
+        print("Num1 menor que Num2");
+    } else if(num1 > num2){
+        print("Num1 mayor que Num2");
+    } else if(num1 == num2){
+        print("Numeros identicos");
+    }
+}
+
+funcCiclos('w');
+funcCiclos('d');
+funcCiclos('f');
+funcCiclos('s');
+
+void funcCiclos(char tipo) {
+
+    if (tipo == 'w') {
+        while (a > 0) {
+            print(a);
+            a--;
+        }
+    } else if (tipo == 'f') {
+        For(integer i = 0; i < 30; i++) {
+            print("Indice: " + i);
+        }
+    } else if (tipo == 'd') {
+        double dd = 21.0;
+        do {
+            imprimir(dd);
+            dd++;
+        } while (dd < 40);
+    } else {
+        print("Ciclo no encontrado");
+    }
+
+}
+
+void imprimir(double param){
+    print("El parametro es: " + param);
+}
